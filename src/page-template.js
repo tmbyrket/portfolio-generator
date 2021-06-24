@@ -1,4 +1,6 @@
-const generatePage = (name, github) => {
+module.exports = templateData => {
+    console.log(templateData);
+    
     return `
     <!DOCTYPE HTML>
     <html lang="en">
